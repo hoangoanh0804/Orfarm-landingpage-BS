@@ -273,6 +273,15 @@ ul {
         font-size: 14px;
     }
 
+    .cate .card-body {
+        padding: 10px;
+    }
+
+    .cate .card-img-top {
+        width: 75% !important;
+        margin: 5px auto !important;
+    }
+
     .product .nav-item {
         font-size: 12px;
     }
@@ -317,5 +326,13 @@ ul {
     }
     .carousel .carousel-caption h2 {
         font-size: 20px;
+    }
+
+    .cate .card-body {
+        padding: 5px;
+    }
+
+    .cate .card-text {
+        display: none;
     }
 }
