@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-white fixed-top border-bottom">
+            <div class="container d-flex">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" /></a>
+
+                <div class="collapse navbar-collapse mx-5" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ms-3">
+                            <a class="nav-link fw-800 color-primary hover transition" href="#">Home</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link fw-800 color-primary hover transition" href="#">About us</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link fw-800 color-primary hover transition" href="#">Product</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link fw-800 color-primary hover transition" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link fw-800 color-primary hover transition" href="#">Experience</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link fw-800 color-primary hover transition" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-icon">
+                    <a class="p-2 ms-2 rounded-1 color-primary bg-white-50 d-inline hover transition"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a class="p-2 ms-2 rounded-1 color-primary bg-white-50 d-inline hover transition" href=""><i class="fa-solid fa-heart"></i></a>
+                    <a class="p-2 ms-2 rounded-1 color-primary bg-white-50 d-inline hover transition" href=""
+                        ><i class="fa-solid fa-cart-shopping"></i
+                    ></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide mt-lg-5 overflowXHidden" data-bs-ride="carousel">
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/slide/slide-1.png" alt="Los Angeles" class="d-block" />
+                    <div class="carousel-caption w-50 text-start bottom-50">
+                        <h3 class="h6 mt-5 color-secondary">Welcome to Our Farm</h3>
+                        <h2 class="display-1 text-uppercase h6 color-primary mb-3 ff-2">
+                            The Fresh Bread <br />
+                            & Crumble.
+                        </h2>
+                        <p class="mb-5 w-75 color-gray mt-4">
+                            Presentation matters. Our fresh Vietnamese vegetable rolls look good and taste even better.
+                        </p>
+                        <button type="button" class="btn bg-secondary hover2 transition text-white fs-14 fw-800 rounded-5 mt-3 px-5 py-2">
+                            View More
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/slide/slide-2.png" alt="Chicago" class="d-block" />
+                    <div class="carousel-caption w-50 text-start bottom-50">
+                        <h3 class="h6 mt-5 mb-4 color-secondary">Pure and Nature 100%</h3>
+                        <h2 class="display-1 text-uppercase h5 color-primary mb-3 ff-2">
+                            The Best <br />
+                            Health & Fresh.
+                        </h2>
+                        <p class="mb-3 w-75 color-gray">
+                            Presentation matters. Our fresh Vietnamese vegetable rolls look good and taste even better.
+                        </p>
+                        <button type="button" class="btn bg-secondary hover2 transition text-white fs-14 fw-800 rounded-5 h6 px-5 py-2">
+                            View More
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-secondary rounded-circle bg-50"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-secondary rounded-circle bg-50"></span>
+            </button>
+        </div>
+
+        <div class="cate mt-lg-5 mb-lg-5 mt-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <a href="" class="card border-0 bg-white transition mb-4 cardHover">
+                            <img class="card-img-top rounded-circle w-50 m-auto mt-3" src="img/cate/cate-1.jpg" alt="Card image" />
+                            <div class="card-body text-center">
+                                <h4 class="card-title h6 fw-800">Biscuits Snack</h4>
+                                <p class="card-text text-black-50">(35 items)</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <a href="" class="card border-0 bg-white transition mb-4 cardHover">
+                            <img class="card-img-top rounded-circle w-50 m-auto mt-3" src="img/cate/cate-2.jpg" alt="Card image" />
+                            <div class="card-body text-center">
+                                <h4 class="card-title h6 fw-800">Cras ultricies</h4>
+                                <p class="card-text text-black-50">(35 items)</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <a href="" class="card border-0 bg-white transition mb-4 cardHover">
+                            <img class="card-img-top rounded-circle w-50 m-auto mt-3" src="img/cate/cate-3.jpg" alt="Card image" />
+                            <div class="card-body text-center">
+                                <h4 class="card-title h6 fw-800">Fresh Bakery</h4>
+                                <p class="card-text text-black-50">(35 items)</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <a href="" class="card border-0 bg-white transition mb-4 cardHover">
+                            <img class="card-img-top rounded-circle w-50 m-auto mt-3" src="img/cate/cate-4.jpg" alt="Card image" />
+                            <div class="card-body text-center">
+                                <h4 class="card-title h6 fw-800">Fresh Fruits</h4>
+                                <p class="card-text text-black-50">(35 items)</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <a href="" class="card border-0 bg-white transition mb-4 cardHover">
+                            <img class="card-img-top rounded-circle w-50 m-auto mt-3" src="img/cate/cate-5.jpg" alt="Card image" />
+                            <div class="card-body text-center">
+                                <h4 class="card-title h6 fw-800">Fresh Meat</h4>
+                                <p class="card-text text-black-50">(35 items)</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <a href="" class="card border-0 bg-white transition mb-4 cardHover">
+                            <img class="card-img-top rounded-circle w-50 m-auto mt-3" src="img/cate/cate-6.jpg" alt="Card image" />
+                            <div class="card-body text-center">
+                                <h4 class="card-title h6 fw-800">Fruit Drink</h4>
+                                <p class="card-text text-black-50">(35 items)</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product -->
+        <div class="product mrt-80">
+            <div class="container">
+                <div class="headline text-center">
+                    <h4 class="subheading h6 color-secondary mb-2">~ Special Products ~</h4>
+                    <h2 class="product-title h1 ff-2 color-primary mb-2">Weekly Food Offers</h2>
+                    <p class="product-desc">The liber tempor cum soluta nobis eleifend option congue doming quod mazim.</p>
+                </div>
+                <ul class="nav nav-tabs d-flex justify-content-center mt-lg-5 flex-nowrap h6">
+                    <li class="nav-item">
+                        <a class="nav-link active color-primary hover transition fw-800" data-bs-toggle="tab" href="#home">All Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-primary hover transition fw-800" data-bs-toggle="tab" href="#menu1">Fresh Meat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-primary hover transition fw-800" data-bs-toggle="tab" href="#menu2">Fresh Vegetables</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-primary hover transition fw-800" data-bs-toggle="tab" href="#menu3">Biscuits Snack</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content mt-3">
+                    <div class="tab-pane container active" id="home">
+                        <div class="row">
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-1.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-2.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-3.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-4.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-5.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-6.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane container fade" id="menu1">
+                        <div class="row">
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-7.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-8.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-9.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-10.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-11.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-12.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane container fade" id="menu2">
+                        <div class="row">
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-7.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-8.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-9.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-10.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-11.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-12.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane container fade" id="menu3">
+                        <div class="row">
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-1.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-2.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-3.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-4.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-5.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+                                <a href="" class="card-product rounded-2 border position-relative transition d-block">
+                                    <div class="thumb position-relative">
+                                        <img src="img/product/product-6.jpg" alt="" />
+                                        <div class="sale position-absolute top-0 start-0 ms-2 mt-2 color-pink p-1 bg-pink fs-14">-50%</div>
+                                    </div>
+                                    <div class="content p-3">
+                                        <p class="cate h6">Fresh vegetable</p>
+                                        <h3 class="title h6 fw-600">Soda Sparkling Water Maker (Rose Gold)</h3>
+                                        <div class="star color-yellow mb-4 fs-12">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="color-pink fw-600 h6 me-2">$ 56.00</span>
+                                            <span class="h6 text-decoration-line-through text-muted">$ 69.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="info">
+                                        <button type="button" class="btn bg-secondary text-white w-100 rounded-pill">Add to card</button>
+                                        <ul class="ps-1">
+                                            <li>Type: Organic</li>
+                                            <li>MFG: August 4.2021</li>
+                                            <li>LIFE: 60 days</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- healthy -->
+        <div class="healthy mrt-40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="thumb mt-lg-5 mt-2">
+                            <img src="img/thumb.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 pe-4">
+                        <div class="healthy-headline">
+                            <h4 class="healthy-subheading h6 color-secondary">~ The Best For Your ~</h4>
+                            <h2 class="healthy-title h1 ff-2 color-primary mb-2">Organic Drinks</h2>
+                            <h2 class="healthy-title-second color-primary fw-800">
+                                <span class="color-secondary fw-800">Easy Healthy</span> - Happy Life
+                            </h2>
+                            <p class="healthy-desc color-primary mt-3 mb-3">
+                                The liber tempor cum soluta nobis eleifend option congue doming quod mazim placerat facer possim assum.
+                            </p>
+                        </div>
+                        <div class="healthy-list mt-5">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3 class="healthy-heading h6 fw-800 color-primary borderBottom pb-2">FRESH FRUITS:</h3>
+                                    <p class="healthy-desc">Apples, Berries &amp; Cherries</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="healthy-heading h6 fw-800 color-primary borderBottom pb-2">INGREDIENT:</h3>
+                                    <p class="healthy-desc">Energy, Protein, Sugars</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="healthy-heading h6 fw-800 color-primary borderBottom pb-2">EXPIRY DATE:</h3>
+                                    <p class="healthy-desc">See on The Bottle Cap</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="healthy-heading h6 fw-800 color-primary borderBottom pb-2">BOOTLE SIZE:</h3>
+                                    <p class="healthy-desc">500ml – 1000ml</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="healthy-heading h6 fw-800 color-primary borderBottom pb-2">FRESH FRUITS:</h3>
+                                    <p class="healthy-desc">Apples, Berries &amp; Cherries</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="healthy-heading h6 fw-800 color-primary borderBottom pb-2">INGREDIENT:</h3>
+                                    <p class="healthy-desc">Energy, Protein, Sugars</p>
+                                </div>
+                            </div>
+                            <button type="button" class="btn bg-secondary text-white hover2 transition fw-800 rounded-5 h6 px-5 py-2 mt-3">
+                                Add to cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- banner -->
+
+        <div class="banner text-white mrt-80 mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card rounded-5 transition cardHover mb-lg-5 mb-2">
+                            <img class="card-img-top" src="img/banner-1.jpg" alt="" />
+                            <div class="card-img-overlay">
+                                <h4 class="card-title color-yellow fw-800 h5">Top offers</h4>
+                                <p class="card-text w-75 h4 fw-800">Eat green <span>Best for Family</span></p>
+                                <p class="card-desc h6 mt-4">Free Shipping 05km</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card rounded-5 transition cardHover mb-lg-5 mb-2">
+                            <img class="card-img-top" src="img/banner-2 (1).jpg" alt="" />
+                            <div class="card-img-overlay">
+                                <h4 class="card-title color-yellow fw-800 h5">Weekend Deals</h4>
+                                <p class="card-text w-75 h4 fw-800">Fresh Food <span>Restore Health</span></p>
+                                <p class="card-desc h6 mt-4">Free Shipping 05km</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card rounded-5 transition cardHover mb-lg-5 mb-2">
+                            <img class="card-img-top" src="img/banner-3.jpg" alt="" />
+                            <div class="card-img-overlay">
+                                <h4 class="card-title color-yellow fw-800 h5">Top seller</h4>
+                                <p class="card-text w-75 h4 fw-800">Healthy <span>Fresh Free Bread</span></p>
+                                <p class="card-desc h6 mt-4">Limited Time: Online Only!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- post -->
+        <div class="post mrt-40">
+            <div class="container">
+                <div class="headline text-center">
+                    <h4 class="subheading h6 color-secondary mb-2">~ Read Our Blog ~</h4>
+                    <h2 class="product-title h1 ff-2 color-primary mb-2">Our Latest Post</h2>
+                    <p class="product-desc">The liber tempor cum soluta nobis eleifend option congue doming quod mazim.</p>
+                </div>
+                <div class="row mt-lg-5 mb-lg-5 mb-2 mt-2">
+                    <div class="col-6 col-lg-3">
+                        <a href="" class="card postHover mb-2">
+                            <div class="card-thumb overflowHidden">
+                                <img class="card-img-top transition" src="img/news/news-1.jpg" alt="Card image" />
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title color-primary fw-800 h6">Ways To Choose Fruits & Seafoods Good For Pregnancy</h4>
+                                <p class="card-text text-black-50">
+                                    These are the people who make your life easier. Egestas is tristique vestibulum...
+                                </p>
+                                <div class="card-link color-secondary fw-800 text-decoration-underline">Continue reading</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <a href="" class="card postHover mb-2">
+                            <div class="card-thumb overflowHidden">
+                                <img class="card-img-top transition" src="img/news/news-2.jpg" alt="Card image" />
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title color-primary fw-800 h6">Ways To Choose Fruits & Seafoods Good For Pregnancy</h4>
+                                <p class="card-text text-black-50">
+                                    These are the people who make your life easier. Egestas is tristique vestibulum...
+                                </p>
+                                <div class="card-link color-secondary fw-800 text-decoration-underline">Continue reading</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <a href="" class="card postHover mb-2">
+                            <div class="card-thumb overflowHidden">
+                                <img class="card-img-top transition" src="img/news/news-3.jpg" alt="Card image" />
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title color-primary fw-800 h6">Ways To Choose Fruits & Seafoods Good For Pregnancy</h4>
+                                <p class="card-text text-black-50">
+                                    These are the people who make your life easier. Egestas is tristique vestibulum...
+                                </p>
+                                <div class="card-link color-secondary fw-800 text-decoration-underline">Continue reading</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <a href="" class="card postHover mb-2">
+                            <div class="card-thumb overflowHidden">
+                                <img class="card-img-top transition" src="img/news/news-4.jpg" alt="Card image" />
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title color-primary fw-800 h6">Ways To Choose Fruits & Seafoods Good For Pregnancy</h4>
+                                <p class="card-text text-black-50">
+                                    These are the people who make your life easier. Egestas is tristique vestibulum...
+                                </p>
+                                <div class="card-link color-secondary fw-800 text-decoration-underline">Continue reading</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer mrt-20 bg-primary text-white-50 p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <h6 class="title fw-800 h6 mb-5">LET US HELP YOU</h6>
+                        <div class="email mb-5">
+                            <span class="text-white-50 fs-14">If you have any question, please contact us at:</span>
+                            <a class="color-secondary fw-800 hover transition" href="mailto:support@example.com">support@example.com</a>
+                        </div>
+
+                        <div class="social">
+                            <h4 class="text h6 fw-800 mb-2">Social Media:</h4>
+                            <div class="icon">
+                                <a class="text-white me-2"><i class="fa-brands fa-facebook"></i></a>
+                                <a class="text-white me-2" href=""><i class="fa-brands fa-twitter"></i></a>
+                                <a class="text-white me-2" href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a class="text-white me-2" href=""><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 fs-14">
+                        <h6 class="title fw-800 h7 mb-5">LOOKING FOR A FARM?</h6>
+                        <div class="address mb-5">68 St. Vicent Place, Glasgow, Greater Newyork NH2012, UK</div>
+                        <ul class="info px-0">
+                            <li>Monday – Friday: <span class="text-white"> 8:10 AM – 6:10 PM</span></li>
+                            <li>Saturday: <span class="text-white"> 10:10 AM – 06:10 PM</span></li>
+                            <li>Sunday: <span class="text-white"> Close</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <h6 class="title fw-800 h6 mb-5">HOT CATEGORIES</h6>
+                        <ul class="info px-0">
+                            <li class="mb-1"><a class="text-white-50 hover transition" href="">Fruits & Vegetables</a></li>
+                            <li class="mb-1"><a class="text-white-50 hover transition" href="">Dairy Products</a></li>
+                            <li class="mb-1"><a class="text-white-50 hover transition" href="">Package Foods</a></li>
+                            <li class="mb-1"><a class="text-white-50 hover transition" href="">Beverage</a></li>
+                            <li class="mb-1"><a class="text-white-50 hover transition" href="">Health & Wellness</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <h6 class="title fw-800 h6 mb-5">OUR NEWSLETTER</h6>
+                        <p class="desc mb-5">Subscribe to the Orfarm mailing list to receive updates on new arrivals & other information.</p>
+                        <form class="position-relative">
+                            <input class="p-2 w-100 fs-14 outlineNone" type="text" placeholder="Your email address..." />
+                            <button
+                                type="button"
+                                class="btn bg-secondary hover2 transition text-white rounded-1 position-absolute top-50 end-0 translate-middle-y me-1"
+                            >
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
